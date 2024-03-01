@@ -1,0 +1,9 @@
+Flask
+pymongo[srv]
+Flask-PyMongo
+Flask-Cors
+nltk
+pandas
+scikit-learn
+numpy
+matplotlib

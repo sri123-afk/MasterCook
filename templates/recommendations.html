@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommendations</title>
+</head>
+<body>
+    <h1>Recommendations</h1>
+    <ul>
+        {% for recipe in recommendations %}
+        <li>{{ recipe.title }}</li>
+        <li>{{ recipe.ingredients }}</li>
+        <li>
+            {% if "http" in recipe.formatted_instructions %}
+                {% set instructions_list = recipe.formatted_instructions.split() %}
+                {% for item in instructions_list %}
+                    {% if "http" in item %}
+                        <a href="{{ item }}">{{ item }}</a>
+                    {% else %}
+                        {{ item }} 
+                    {% endif %}
+                {% endfor %}
+            {% else %}
+                {{ recipe.formatted_instructions }}
+            {% endif %}
+        </li>
+        <li><img src="{{ recipe.image }}" alt="Recipe Image" width="200"></li>
+        <li>{{ recipe.veryHealthy }}</li>
+        <li>{{ recipe['Vitamin B3/mg'] }}</li>
+        <li>{{ recipe['Selenium/µg'] }}</li>
+        <li>{{ recipe['Phosphorus/mg'] }}</li>
+        <li>{{ recipe['Iron/mg'] }}</li>
+        <li>{{ recipe['Zinc/mg'] }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
