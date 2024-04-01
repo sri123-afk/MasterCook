@@ -1,0 +1,213 @@
+.frame-input {
+  margin: 0;
+  height: 26px;
+  width: 24px;
+}
+
+.option-1,
+.option-11,
+.option-12,
+.option-13,
+.option-14,
+.option-15,
+.option-16,
+.option-17,
+.option-18,
+.option-19,
+.option-110,
+.option-111,
+.option-112,
+.option-113,
+.option-114,
+.option-115,
+.option-116,
+.option-117,
+.option-118,
+.option-119 {
+  height: 50px;
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frame-div,
+.frame-parent1,
+.frame-parent5,
+.frame-parent6,
+.frame-parent7,
+.frame-parent9,
+.frame-parent10,
+.frame-parent11,
+.frame-parent12,
+.frame-parent13,
+.frame-parent14,
+.frame-parent15,
+.frame-parent17,
+.frame-parent18,
+.frame-parent19,
+.frame-parent20,
+.frame-parent21,
+.frame-parent22,
+.frame-parent16,
+.frame-parent23,
+.frame-parent3 {
+  display: flex;
+  flex-direction: row; /* Ensure items are laid out in a row */
+  flex-wrap: wrap; /* Allow items to wrap onto multiple lines if needed */
+  align-items: center; /* Align items vertically in the center */
+  justify-content: flex-start; /* Align items horizontally at the start */
+  gap: 10px; /* Add some space between checkboxes */
+ }
+ 
+ 
+
+.frame-input2,
+.frame-input1,
+.frame-input3,
+.frame-input4,
+.frame-input5,
+.frame-input6,
+.frame-input7,
+.frame-input8,
+.frame-input9,
+.frame-input10,
+.frame-input11,
+.frame-input12,
+.frame-input13,
+.frame-input14,
+.frame-input15,
+.frame-input16,
+.frame-input17,
+.frame-input18 {
+  margin: 10px;
+  height: 26px;
+  width: 24px;
+}
+
+.icons {
+  margin: 0;
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+
+.option-115 {
+  height: 100%;
+  width: 77px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: -41px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 77px;
+}
+
+.first-instance,
+.icons-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.icons-parent {
+  padding: 2px 36px 2px 0;
+  position: relative;
+  margin-left: -2px;
+  font-size: 11px;
+}
+
+.first-instance {
+  width: 159px;
+}
+
+.title2 {
+  position: relative;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  font-family: Roboto;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  min-width: 40px;
+}
+
+.primary2 {
+  cursor: pointer;
+  border: 0;
+  padding: 10px 20px;
+  background-color: #000;
+  width: 301px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.primary2:hover {
+  background-color: #333;
+}
+
+.cuisine-selection,
+.cuisine-selection-inner {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.cuisine-selection-inner {
+  width: 453px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 72px 0 67.5px;
+  max-width: 100%;
+}
+
+.cuisine-selection {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: 232px 20px 325px 102px;
+  gap: 74.5px;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: 12px;
+  color: #000;
+  font-family: Roboto;
+}
+
+@media screen and (max-width: 625px) {
+  .cuisine-selection {
+    gap: 37px 74.5px;
+    padding-left: 51px;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .what-type-of {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .cuisine-selection-inner {
+    padding-left: 33px;
+    padding-right: 36px;
+    box-sizing: border-box;
+  }
+  .cuisine-selection {
+    gap: 19px 74.5px;
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+}

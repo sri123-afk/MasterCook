@@ -1,0 +1,350 @@
+.mastercook,
+.welcome-to-mastercook {
+  position: relative;
+  display: inline-block;
+}
+.mastercook {
+  letter-spacing: -0.27px;
+  line-height: 23px;
+  min-width: 106px;
+}
+.welcome-to-mastercook {
+  margin: 0;
+  width: 258px;
+  font-size: 22px;
+  letter-spacing: -0.33px;
+  line-height: 28px;
+  font-weight: 700;
+  font-family: Inter;
+  color: #121217;
+  text-align: center;
+}
+.welcome-to-mastercook-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 22px 12px;
+}
+.inputs,
+.username {
+  position: relative;
+  text-align: left;
+  ;
+}
+.username {
+  align-self: stretch;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #121217;
+}
+.inputs {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: Roboto;
+  font-size: 14px;
+  background-color: transparent;
+  height: 20px;
+  flex: 1;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 158px;
+  padding: 0;
+}
+.textfield {
+  width: 288px;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 8px 11px;
+}
+.email,
+.text {
+  position: relative;
+  text-align: left;
+}
+.email {
+  align-self: stretch;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #121217;
+}
+.text {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: Roboto;
+  font-size: 14px;
+  background-color: transparent;
+  height: 20px;
+  flex: 1;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 158px;
+  padding: 0;
+}
+.textfield-wrapper,
+.textfield1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.textfield1 {
+  flex: 1;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 8px 11px;
+}
+.textfield-wrapper {
+  width: 288px;
+  padding: 0 0 3px;
+  box-sizing: border-box;
+}
+.password,
+.text1 {
+  position: relative;
+  text-align: left;
+}
+.password {
+  align-self: stretch;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #121217;
+}
+.text1 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: Roboto;
+  font-size: 14px;
+  background-color: transparent;
+  height: 20px;
+  flex: 1;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 158px;
+  padding: 0;
+}
+.textfield-container,
+.textfield2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.textfield2 {
+  flex: 1;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 8px 11px;
+}
+.textfield-container {
+  width: 288px;
+  padding: 0 0 3px;
+  box-sizing: border-box;
+}
+.re-enter-password,
+.text2 {
+  position: relative;
+  text-align: left;
+}
+.re-enter-password {
+  align-self: stretch;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #121217;
+}
+.text2 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: Roboto;
+  font-size: 14px;
+  background-color: transparent;
+  height: 20px;
+  flex: 1;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 158px;
+  padding: 0;
+}
+.email-field,
+.password-field,
+.textfield3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.textfield3 {
+  width: 288px;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: 8px 11px;
+}
+.email-field,
+.password-field {
+  max-width: 100%;
+}
+.password-field {
+  flex: 1;
+  flex-direction: column;
+  gap: 11px;
+}
+.email-field {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 7px;
+  box-sizing: border-box;
+}
+.title {
+  position: relative;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  font-family: Roboto;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  min-width: 40px;
+}
+.primary {
+  cursor: pointer;
+  border: 0;
+  padding: 10px 20px;
+  background-color: #000;
+  align-self: stretch;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.primary:hover {
+  background-color: #333;
+}
+.new-to-foodie {
+  width: 103px;
+  position: relative;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: Inter;
+  color: #636387;
+  text-align: center;
+  display: inline-block;
+  min-width: 103px;
+}
+.welcome-message {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px;
+}
+.frame-parent,
+.primary-parent {
+  width: 301px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.frame-parent {
+  margin: 0;
+  width: 487px;
+  gap: 46px;
+  max-width: 100%;
+}
+.sign-up-page,
+.sign-up-page-inner {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.sign-up-page-inner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 0 0 143px;
+  max-width: 100%;
+}
+.sign-up-page {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 26px 51px 158px;
+  gap: 70px;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 18px;
+  color: #121217;
+  font-family: Inter;
+}
+@media screen and (max-width: 625px) {
+  .frame-parent {
+    gap: 23px 46px;
+  }
+  .sign-up-page,
+  .sign-up-page-inner {
+    padding-left: 71px;
+    box-sizing: border-box;
+  }
+  .sign-up-page {
+    gap: 35px 70px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .welcome-to-mastercook {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .sign-up-page-inner {
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+  .sign-up-page {
+    gap: 17px 70px;
+  }
+}
+
+.error-message {
+  color: red;
+}
