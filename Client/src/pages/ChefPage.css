@@ -1,0 +1,334 @@
+.top-bar-inner {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  border-radius: 100px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.title10 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 36px;
+  font-weight: 500;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.title9 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.tab6,
+.tab7,
+.tab8 {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 44px;
+}
+.tab7,
+.tab8 {
+  min-width: 34px;
+}
+.tab8 {
+  min-width: 50px;
+}
+.icons-option {
+  margin: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: left;
+  font-size: 16px;
+  color: #000;
+  font-family: Roboto;
+}
+.container2,
+.top-bar2,
+.top-bar3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.container2 {
+  margin: 0;
+  width: 208px;
+  flex-direction: column;
+  padding: 8px 0 0;
+}
+.top-bar2,
+.top-bar3 {
+  flex-direction: row;
+  max-width: 100%;
+}
+.top-bar3 {
+  flex: 1;
+  background-color: #fff;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  padding: 20px;
+  gap: 20px;
+  text-align: left;
+  font-size: 28px;
+  color: #000;
+  font-family: Roboto;
+  cursor: pointer; /* Add this line */
+}
+.top-bar2 {
+  align-self: stretch;
+  padding: 0 0 42px;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+}
+.title11 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.container3 {
+  width: 266px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icons {
+  margin: 0;
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.icons-group,
+.option {
+  display: flex;
+  align-items: center;
+}
+.option {
+  height: 28px;
+  flex: 1;
+  position: relative;
+  justify-content: center;
+}
+.icons-group {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.button,
+.button {
+  width: 101px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+}
+.list {
+  display: flex;
+  justify-content: flex-start;
+}
+.list {
+  width: 106px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 5px 0 0;
+  box-sizing: border-box;
+  gap: 3px;
+}
+.list {
+  width: 958px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 0 27px;
+  max-width: 100%;
+  gap: 20px;
+  text-align: center;
+  font-size: 12px;
+}
+.section-inner {
+  height: 0.5px;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: -0.5px;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+}
+.section-wrapper,
+.section2 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.section2 {
+  flex: 1;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0 0;
+  position: relative;
+  gap: 60px;
+  min-height: 226px;
+}
+.section-wrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 6px;
+}
+.section3 {
+  align-self: stretch;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.section3 {
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 73px 0 0;
+  position: relative;
+  gap: 60px;
+  min-height: 252px;
+  z-index: 1;
+  margin-top: -42px;
+}
+.frame-parent2 {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  right: 400px;
+}
+.title13 {
+  margin: 0;
+  width: 520px;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.description,
+.title14 {
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+}
+.description {
+  width: 520px;
+  display: inline-block;
+  max-width: 100%;
+}
+.title14 {
+  font-weight: 500;
+  font-family: Roboto;
+  color: #fff;
+  text-align: left;
+}
+.button8,
+.container5,
+.primary3 {
+  display: flex;
+  flex-direction: column;
+}
+.primary3 {
+  border-radius: 8px;
+  background-color: #000;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  white-space: nowrap;
+}
+.button8,
+.container5 {
+  justify-content: flex-start;
+}
+.button8 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  overflow: hidden;
+  align-items: flex-start;
+}
+.container5 {
+  width: 930px;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  gap: 24px;
+  max-width: 100%;
+}
+.frame-parent,
+.section-container,
+.section4 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.section4 {
+  flex: 1;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0 0;
+  position: relative;
+  gap: 60px;
+  min-height: 188px;
+}
+.frame-parent,
+.section-container {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.section-container {
+  width: 1364px;
+  flex-direction: row;
+  padding: 0 47px;
+  text-align: center;
+}
+.frame-parent {
+  align-self: stretch;
+  flex-direction: column;
+  padding: 0 0 0 14px;
+  gap: 42px;
+  text-align: left;
+  font-size: 40px;
+  color: #000;
+  font-family: Roboto;
+  margin: auto;
+}
+.chef-page1 {
+  width: 100%;
+  background-color: #c6e7c5;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 655px;
+  box-sizing: border-box;
+  letter-spacing: normal;
+  font-size: 20px;
+}
